@@ -4,7 +4,7 @@ int main(int argc, char** argv)
 {
 	glutInit($argc, argv);
 	glutCreateWindow("OpenGL Setup Test");
-	glutInitWindowSize(320,320);
+	glutInitWindowSize(1280,720);
 	glutWindowPosition(50,50);
 	glutDisplayFunc(display);
 	glutMainLoop();
